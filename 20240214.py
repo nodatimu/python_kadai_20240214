@@ -69,5 +69,5 @@ while item_dict[n]>0:
   total+=intax
 
 # output
-st.title(f"お支払い金額(税込)")
-st.text(f"{int(total)}円")
+st.subheader(f"お支払い金額(税込)")
+st.subheader(f"{int(total)}円")
